@@ -1,0 +1,27 @@
+{
+  "name": "platanus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify -v -t [ babelify --presets [ es2015 ] ]  --extension=.json ./src/js/main.js -o ./src/js/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.2",
+    "browserify": "^13.1.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-sass": "^2.3.2",
+    "minifyify": "^7.3.4",
+    "require-dir": "^0.3.1",
+    "uglifyify": "^3.0.4",
+    "watchify": "^3.7.0"
+  },
+  "dependencies": {}
+}
